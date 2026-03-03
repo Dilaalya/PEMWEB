@@ -25,14 +25,14 @@ input, select {
     font-size: 14px;
 }
 
-button{
-    background-color: pink
-    color: whitesmoke;
-    border:none;
-    padding: 0.5em 1.5em;
-    border-radius: 4px;
-
-
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 label{
