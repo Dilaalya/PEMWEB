@@ -14,12 +14,15 @@ form{
     
 }
 
-input, select{
-    border: none;
-    border-bottom: 3px solid black;
-    background-color: beige
+input, select {
     width: 100%;
-    padding: lem;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;   
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 14px;
 }
 
 button{
@@ -34,4 +37,5 @@ button{
 
 label{
     display: block;
+    font-size: 15px;
 }
